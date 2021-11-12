@@ -4,7 +4,7 @@ toCurrency = document.querySelector(".to select"),
 getButton = document.querySelector("form button");
 
 for (let i = 0; i < dropList.length; i++) {
-    for(let currency_code in country_code){
+    for(currency_code in country_code){
         let selected;
         if(i == 0) {
             selected = currency_code == "AUD" ? "selected" : "";
@@ -16,7 +16,7 @@ for (let i = 0; i < dropList.length; i++) {
     }
     dropList[i].addEventListener("change", e =>{
         loadFlag(e.target);
-    });
+   });
 }
 
 function loadFlag(element){
