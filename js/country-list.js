@@ -1,4 +1,4 @@
-let currency_code = {
+let country_code = {
     "AED" : "AE",
     "AFN" : "AF",
     "XCD" : "AG",

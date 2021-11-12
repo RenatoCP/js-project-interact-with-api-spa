@@ -1,4 +1,4 @@
-const dropList = document.querySelectorAll("form select"),
+const dropList = document.querySelectorAll(".drop-list select"),
 fromCurrency = document.querySelector(".from select"),
 toCurrency = document.querySelector(".to select"),
 getButton = document.querySelector("form button");
@@ -20,10 +20,10 @@ for (let i = 0; i < dropList.length; i++) {
 }
 
 function loadFlag(element){
-    for(let code in country_list){
+    for(let code in country_code){
         if(code == element.value){
             let imgTag = element.parentElement.querySelector("img");
-            imgTag.src = `https://flagcdn.com/w20/${country_list[code]}.png`;
+            imgTag.src = `https://flagcdn.com/w20/${country_code[code]}.png`;
         }
     }
 }
@@ -37,7 +37,7 @@ getButton.addEventListener("click", e =>{
     getExchangeRate();
 });
 
-const exchangeIcon = document.querySelector("form .icon");
+const exchangeIcon = document.querySelector(".drop-list .icon");
 exchangeIcon.addEventListener("click", ()=>{
     let tempCode = fromCurrency.value;
     fromCurrency.value = toCurrency.value;
@@ -48,8 +48,8 @@ exchangeIcon.addEventListener("click", ()=>{
 })
 
 function getExchangeRate(){
-    const amount = document.querySelector("form input");
-    const exchangeRateTxt = document.querySelector("form .exchange-rate");
+    const amount = document.querySelector(".amount input");
+    const exchangeRateTxt = document.querySelector(".exchange-rate");
     let amountVal = amount.value;
     if(amountVal == "" || amountVal == "0"){
         amount.value = "1";
