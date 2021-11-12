@@ -12,11 +12,14 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 0 10px;
-  background: #675AFE;
+  background-color: #16e0bd;
+  background-image: url(../images/Digital-Currency-Vs.-Cryptocurrency-–-CoinMetro-min-scaled.jpg);
+  background-size: 100%;
+  background-blend-mode: multiply;
 }
 ::selection{
   color: #fff;
-  background: #675AFE;
+  background: #16e0bd;
 }
 .wrapper{
   width: 370px;
@@ -51,7 +54,7 @@ form input{
 }
 form input:focus{
   padding: 0 14px;
-  border: 2px solid #675AFE;
+  border: 2px solid #16e0bd;
 }
 form .drop-list{
   display: flex;
@@ -102,7 +105,7 @@ form button{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #675AFE;
+  background: #16e0bd;
   transition: 0.3s ease;
 }
 form button:hover{
