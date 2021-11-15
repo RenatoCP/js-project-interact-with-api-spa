@@ -14,7 +14,7 @@ body{
   min-height: 100vh;
   padding: 0 10px;
   background-color: #16e0bd;
-  background-image: url(../images/Digital-Currency-Vs.-Cryptocurrency-–-CoinMetro-min-scaled.jpg);
+  background-image: url(../images/2018-07-09-WhatExpectEarnFinanceDegree-ThinkstockPhotos-494940062.jpg);
   background-size: 100%;
   background-blend-mode: multiply;
 }
@@ -110,5 +110,5 @@ form button{
   transition: 0.3s ease;
 }
 form button:hover{
-  background: #34d6fe;
+  background: #4cfe34;
 }
