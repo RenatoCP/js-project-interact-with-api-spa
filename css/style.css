@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 body{
   display: flex;
@@ -109,5 +110,5 @@ form button{
   transition: 0.3s ease;
 }
 form button:hover{
-  background: #4534fe;
+  background: #34d6fe;
 }
